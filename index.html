@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>1 Sem Results!!!</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="log-in">
+            <div class="logo">
+                <img src="logo.jpg" alt="Logo">
+            </div>
+            <div class="form" id="demo">
+                <label for="roll-no">Roll No</label><br>
+                <input type="text" id="roll-no" placeholder="Roll No"><br><br>
+                <label for="dob">Date of Birth</label>
+                <input type="date" id="dob">
+                <button type="button" onclick="myFunction()">SUBMIT</button>
+            </div>
+            <script>
+                function myFunction() {
+                    document.getElementById("demo").innerHTML = "Padh Lo BhosdiWaalo 2nd Sem ke exam sir pe hai 1st ka result dekhenge maadharchod bhadwe saale!!!";
+                    document.getElementById("demo").style.fontSize = "2rem";
+                    document.getElementById("demo").style.color = "red";
+                    document.getElementById("demo").style.padding = "1.5rem";
+                }
+            </script>
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,61 @@
+.container {
+    background-image: url("back.jpeg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+}
+.log-in {
+    margin-top: 4rem;
+    margin-left: 10%;
+    margin-right: 10%;
+    height: 27rem;
+    border: 1px solid red ;
+    background-color: #fff;
+    box-shadow: 1px 1px 10px rgba(40,40,40,0.7);
+}
+.logo {
+    padding: 1rem;
+}
+.logo > img{
+    max-width: 22%;
+    max-height: 22%;
+    margin-left: 39%;
+}
+.form {
+    font-size: 1.5rem;
+    margin-top: 1rem;
+}
+.form label {
+    margin-left: 18%;
+}
+.form input {
+    margin-left: 18%;
+    width: 60%;
+    height: 1.95rem;
+    font-size: 1.25rem;
+    text-align: left;
+    color: rgba(40,40,40,0.9);
+    border: 1px solid rgb(120,120,120);
+    border-radius: 2px;
+    padding: 3px;
+    padding-left: 1.5rem;
+}
+.form button {
+    width: 65.5%;
+    margin-left: 18%;
+    margin-top: 3rem;
+    height: 2.5rem;
+    background-color: rgb(150, 3, 3);
+    color: #fff;
+    padding: 3px;
+    border: none;
+}
+@media (min-width: 768px)
+{
+    .log-in {
+        margin-left: 30%;
+        margin-right: 30%;
+        height: 32rem;
+    }   
+}
